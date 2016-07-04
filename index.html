@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<base href="http://localhost:8080/ui-route/">
+	<title>Angular ui route</title>
+
+</head>
+<body ng-app="app">
+	
+	<a ui-sref="uno">uno</a> <br>
+	<a ui-sref="dos">dos</a> <br>
+	<a ui-sref="tres">tres</a> <br>
+
+	<div ui-view></div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+
+	<script src="app.js"></script>
+	<script src="run.js"></script>
+</body>
+</html>
